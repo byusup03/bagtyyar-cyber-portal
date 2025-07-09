@@ -6,56 +6,38 @@ import { Shield, Network, Bug, Database, Eye, Server, ExternalLink, Github } fro
 export const ProjectsSection = () => {
   const projects = [
     {
+      icon: Database,
+      title: "Malware Investigation",
+      description: "Analyzed thousands of security logs in Splunk and built comprehensive dashboards to detect threats and patterns in real-time malware activity.",
+      technologies: ["Splunk", "Python", "SIEM", "Log Analysis"],
+      highlights: ["Thousands of logs analyzed", "Custom dashboards", "Threat pattern detection"],
+      demoLink: "#",
+      githubLink: "#"
+    },
+    {
       icon: Shield,
-      title: "Advanced Threat Detection System",
-      description: "Developed a machine learning-powered threat detection system that analyzes network traffic patterns to identify potential security breaches in real-time.",
-      technologies: ["Python", "TensorFlow", "Splunk", "Elasticsearch"],
-      highlights: ["99.2% accuracy rate", "Real-time analysis", "False positive reduction"],
+      title: "DoS Attack Simulation",
+      description: "Tested various attack scenarios and created protective rules to defend servers against denial-of-service attacks in controlled environments.",
+      technologies: ["Linux", "iptables", "Network Tools", "Bash"],
+      highlights: ["Attack scenario testing", "Protection rules created", "Server hardening"],
       demoLink: "#",
       githubLink: "#"
     },
     {
       icon: Network,
-      title: "Network Security Assessment Framework",
-      description: "Created a comprehensive framework for automated network vulnerability assessments, including custom penetration testing tools and reporting systems.",
-      technologies: ["Python", "Nmap", "Metasploit", "Django"],
-      highlights: ["Automated scanning", "Custom exploits", "Detailed reporting"],
+      title: "Network Packet Analysis",
+      description: "Used Wireshark to analyze network traffic and detect phishing attempts and malware in email communications for enhanced security monitoring.",
+      technologies: ["Wireshark", "TCP/IP", "Email Security", "Network Analysis"],
+      highlights: ["Phishing detection", "Malware identification", "Traffic analysis"],
       demoLink: "#",
       githubLink: "#"
     },
     {
       icon: Bug,
-      title: "Web Application Security Scanner",
-      description: "Built an intelligent web application scanner that identifies OWASP Top 10 vulnerabilities and provides actionable remediation guidance.",
-      technologies: ["Go", "React", "PostgreSQL", "Docker"],
-      highlights: ["OWASP compliance", "API integration", "CI/CD friendly"],
-      demoLink: "#",
-      githubLink: "#"
-    },
-    {
-      icon: Database,
-      title: "Incident Response Automation Platform",
-      description: "Designed and implemented an automated incident response platform that streamlines security incident handling and forensic analysis workflows.",
-      technologies: ["Python", "Ansible", "Kubernetes", "ELK Stack"],
-      highlights: ["Response time reduction", "Automated playbooks", "Forensic analysis"],
-      demoLink: "#",
-      githubLink: "#"
-    },
-    {
-      icon: Eye,
-      title: "Phishing Campaign Simulator",
-      description: "Developed a comprehensive phishing simulation platform for security awareness training, complete with analytics and educational resources.",
-      technologies: ["Node.js", "Vue.js", "MongoDB", "Redis"],
-      highlights: ["Realistic simulations", "Training modules", "Progress tracking"],
-      demoLink: "#",
-      githubLink: "#"
-    },
-    {
-      icon: Server,
-      title: "Zero-Trust Architecture Implementation",
-      description: "Led the implementation of a zero-trust security model for enterprise infrastructure, including identity verification and micro-segmentation.",
-      technologies: ["Terraform", "AWS", "Istio", "Vault"],
-      highlights: ["Zero-trust model", "Micro-segmentation", "Identity verification"],
+      title: "Frontend Development Work",
+      description: "Built two application frontends focused on user experience improvements, successfully enhancing the interface for thousands of users.",
+      technologies: ["React", "JavaScript", "CSS", "UI/UX"],
+      highlights: ["Two app frontends", "Improved UX", "Thousands of users"],
       demoLink: "#",
       githubLink: "#"
     }
