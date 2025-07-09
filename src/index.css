@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Cybersecurity-inspired color palette */
-    --background: 0 0% 100%;
-    --foreground: 220 15% 25%;
+    /* Modern attractive color palette */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 25%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 25%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    /* Deep cyber blue primary */
-    --primary: 210 100% 20%;
+    /* Rich purple primary */
+    --primary: 263 70% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 210 100% 25%;
+    --primary-hover: 263 70% 55%;
 
-    /* Light blue secondary */
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 210 100% 20%;
+    /* Elegant secondary */
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 20% 96%;
-    --muted-foreground: 220 15% 45%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
 
-    /* Cyan accent for highlights */
-    --accent: 180 100% 35%;
+    /* Vibrant accent colors */
+    --accent: 158 64% 52%;
     --accent-foreground: 0 0% 98%;
-    --accent-glow: 180 100% 50%;
+    --accent-glow: 158 84% 62%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 210 100% 20%;
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 263 70% 50%;
 
-    /* Custom design tokens */
-    --cyber-gradient: linear-gradient(135deg, hsl(210 100% 20%), hsl(180 100% 35%));
-    --hero-gradient: linear-gradient(135deg, hsl(210 100% 8%) 0%, hsl(210 100% 15%) 100%);
-    --section-gradient: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 20% 98%) 100%);
+    /* Beautiful gradient backgrounds */
+    --cyber-gradient: linear-gradient(135deg, hsl(263 70% 50%), hsl(158 64% 52%));
+    --hero-gradient: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(263 70% 8%) 50%, hsl(158 64% 8%) 100%);
+    --section-gradient: linear-gradient(180deg, hsl(240 8% 6%) 0%, hsl(240 10% 3.9%) 100%);
     
-    /* Shadows */
-    --shadow-cyber: 0 10px 30px -5px hsl(210 100% 20% / 0.2);
-    --shadow-glow: 0 0 20px hsl(180 100% 50% / 0.3);
+    /* Enhanced shadows */
+    --shadow-cyber: 0 25px 50px -12px hsl(263 70% 50% / 0.25);
+    --shadow-glow: 0 0 40px hsl(158 84% 62% / 0.4);
     
-    /* Animations */
-    --transition-cyber: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Smooth animations */
+    --transition-cyber: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
