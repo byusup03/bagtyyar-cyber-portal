@@ -36,7 +36,7 @@ export const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-primary-foreground text-left">
-            Hi, I'm{" "}
+            Hi,{" "}
             <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent font-bold text-5xl text-center">
               Bagtyyar Yusubov
             </span>
