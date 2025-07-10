@@ -30,24 +30,17 @@ export const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <img src="/lovable-uploads/a5af8d27-cf7f-4fe1-bf1e-8d5630990e62.png" alt="Bagtyyar Yusubov" className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover object-center border-4 border-accent-glow/30 shadow-glow animate-glow-pulse" />
+              <img src="/lovable-uploads/a5af8d27-cf7f-4fe1-bf1e-8d5630990e62.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent-glow/30 shadow-glow animate-glow-pulse" />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-accent-glow/20"></div>
             </div>
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-primary-foreground text-left">
-            <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent font-bold text-5xl text-justify">Bagtyyar Yusubov</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 text-center">
+            <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">Bagtyyar Yusubov</span>
           </h1>
           
-          <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed">
-            Passionate about{" "}
-            <span className="text-accent-glow font-semibold">cybersecurity</span>{" "}
-            and{" "}
-            <span className="text-accent-glow font-semibold">digital safety</span>
-          </p>
-
-          <p className="text-lg sm:text-xl mb-12 text-primary-foreground/70 max-w-2xl mx-auto">
-            Dedicated to protecting digital assets and ensuring secure environments through ethical hacking, threat analysis, and innovative security solutions.
+          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-accent-glow/90 max-w-2xl mx-auto leading-relaxed text-center">
+            Cybersecurity expert protecting digital assets through ethical hacking and innovative security solutions
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
