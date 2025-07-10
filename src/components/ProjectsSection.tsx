@@ -106,31 +106,6 @@ export const ProjectsSection = () => {
                   </ul>
                 </div>
                 
-                {/* Action Buttons */}
-                <div className="flex space-x-3 mt-auto">
-                  <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="flex-1 group-hover:border-accent/50 transition-colors duration-300"
-                    asChild
-                  >
-                    <a href={project.demoLink}>
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
-                  <Button 
-                    variant="ghost" 
-                    size="sm" 
-                    className="flex-1 group-hover:text-accent transition-colors duration-300"
-                    asChild
-                  >
-                    <a href={project.githubLink}>
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </a>
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}

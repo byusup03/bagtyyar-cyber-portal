@@ -30,7 +30,7 @@ export const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <img src="/lovable-uploads/a5af8d27-cf7f-4fe1-bf1e-8d5630990e62.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent-glow/30 shadow-glow animate-glow-pulse" />
+              <img src="/lovable-uploads/52845ccc-c659-4734-82a6-b3fe2edd6633.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent-glow/30 shadow-glow animate-glow-pulse" />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-accent-glow/20"></div>
             </div>
           </div>
@@ -55,13 +55,13 @@ export const HeroSection = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
-            <a href="mailto:bagtyyar@example.com" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="Email">
+            <a href="mailto:bagtyyaryusupov1997@gmail.com" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="Email">
               <Mail className="h-6 w-6" />
             </a>
             <a href="https://linkedin.com/in/bagtyyar" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="LinkedIn">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="https://github.com/bagtyyar" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="GitHub">
+            <a href="https://github.com/byusup03" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="GitHub">
               <Github className="h-6 w-6" />
             </a>
           </div>

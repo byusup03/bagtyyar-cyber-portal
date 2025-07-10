@@ -37,8 +37,8 @@ export const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "bagtyyar.yusubov@example.com",
-      href: "mailto:bagtyyar.yusubov@example.com"
+      value: "bagtyyaryusupov1997@gmail.com",
+      href: "mailto:bagtyyaryusupov1997@gmail.com"
     },
     {
       icon: Linkedin,
@@ -49,8 +49,8 @@ export const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/bagtyyar",
-      href: "https://github.com/bagtyyar"
+      value: "github.com/byusup03",
+      href: "https://github.com/byusup03"
     },
     {
       icon: MapPin,
@@ -123,7 +123,7 @@ export const ContactSection = () => {
                     className="border-accent/30 hover:bg-accent/10"
                     asChild
                   >
-                    <a href="mailto:bagtyyar.yusubov@example.com">
+                    <a href="mailto:bagtyyaryusupov1997@gmail.com">
                       <Mail className="h-4 w-4 mr-2" />
                       Email Me
                     </a>
