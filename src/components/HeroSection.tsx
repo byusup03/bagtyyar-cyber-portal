@@ -36,9 +36,7 @@ export const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-primary-foreground text-left">
-            <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent font-bold text-5xl text-center">
-              Bagtyyar Yusubov
-            </span>
+            <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent font-bold text-5xl text-justify">Bagtyyar Yusubov</span>
           </h1>
           
           <p className="text-xl sm:text-2xl lg:text-3xl mb-8 text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed">
