@@ -10,19 +10,15 @@ export const HeroSection = () => {
     }
   };
   return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background with gradient */}
-      <div className="absolute inset-0 bg-[var(--hero-gradient)]"></div>
-      
-      {/* Animated background elements */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 border border-accent rounded-full animate-spin" style={{
-        animationDuration: '20s'
-      }}></div>
-        <div className="absolute top-3/4 right-1/4 w-32 h-32 border border-accent-glow rounded-full animate-spin" style={{
-        animationDuration: '15s',
-        animationDirection: 'reverse'
-      }}></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border border-primary rounded-full animate-pulse"></div>
+      {/* Spline Background */}
+      <div className="absolute inset-0">
+        <iframe 
+          src='https://my.spline.design/particlenebula-m99iFI3Rb7R9TkspyP0yisMQ/' 
+          frameBorder='0' 
+          width='100%' 
+          height='100%'
+          className="w-full h-full"
+        />
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto flex flex-col justify-center items-center min-h-screen py-20">
