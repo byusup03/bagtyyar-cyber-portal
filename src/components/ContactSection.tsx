@@ -34,10 +34,10 @@ export const ContactSection = () => {
         'service_1h4870j',
         'template_qobn0ss',
         {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
+          user_name: formData.name,
+          user_email: formData.email,
+          user_subject: formData.subject,
+          user_message: formData.message,
         },
         'Gummuwk994jNxDPBR'
       );
