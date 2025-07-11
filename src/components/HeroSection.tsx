@@ -26,17 +26,17 @@ export const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <img src="/lovable-uploads/a5af8d27-cf7f-4fe1-bf1e-8d5630990e62.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent/30 shadow-lg brightness-110" />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-accent/10"></div>
+              <img src="/lovable-uploads/52845ccc-c659-4734-82a6-b3fe2edd6633.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-[center_20%] border-4 border-primary/30 shadow-lg brightness-125" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-primary/10"></div>
             </div>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 text-center">
-            <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">Bagtyyar Yusubov</span>
+            <span className="text-foreground">Bagtyyar Yusubov</span>
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-accent/90 max-w-2xl mx-auto leading-relaxed text-center">
-            Passionate about cybersecurity and digital safety. Dedicated to protecting digital assets and ensuring secure environments through ethical hacking, threat analysis, and innovative security solutions.
+          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-foreground/90 max-w-2xl mx-auto leading-relaxed text-center">
+            Cybersecurity expert protecting digital assets through ethical hacking and innovative security solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

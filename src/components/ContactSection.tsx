@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Linkedin, Github, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
 
 export const ContactSection = () => {
   const { toast } = useToast();
@@ -14,6 +15,7 @@ export const ContactSection = () => {
     subject: "",
     message: ""
   });
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -23,14 +25,37 @@ export const ContactSection = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to a backend service
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    setIsLoading(true);
+
+    try {
+      await emailjs.send(
+        'service_1h4870j',
+        'template_qobn0ss',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        'Gummuwk994jNxDPBR'
+      );
+
+      toast({
+        title: "Message Sent!",
+        description: "Thank you for your message. I'll get back to you soon.",
+      });
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const contactInfo = [
@@ -221,9 +246,10 @@ export const ContactSection = () => {
                   className="w-full" 
                   variant="cyber"
                   size="lg"
+                  disabled={isLoading}
                 >
                   <Send className="h-5 w-5 mr-2" />
-                  Send Message
+                  {isLoading ? "Sending..." : "Send Message"}
                 </Button>
               </form>
 
