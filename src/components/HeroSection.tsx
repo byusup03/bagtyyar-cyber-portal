@@ -26,17 +26,17 @@ export const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <img src="/lovable-uploads/52845ccc-c659-4734-82a6-b3fe2edd6633.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent-glow/30 shadow-glow animate-glow-pulse" />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-accent-glow/20"></div>
+              <img src="/lovable-uploads/a5af8d27-cf7f-4fe1-bf1e-8d5630990e62.png" alt="Bagtyyar Yusubov" className="w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-center border-4 border-accent/30 shadow-lg brightness-110" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent to-accent/10"></div>
             </div>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 text-center">
-            <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">Bagtyyar Yusubov</span>
+            <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">Bagtyyar Yusubov</span>
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-accent-glow/90 max-w-2xl mx-auto leading-relaxed text-center">
-            Cybersecurity expert protecting digital assets through ethical hacking and innovative security solutions
+          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-accent/90 max-w-2xl mx-auto leading-relaxed text-center">
+            Passionate about cybersecurity and digital safety. Dedicated to protecting digital assets and ensuring secure environments through ethical hacking, threat analysis, and innovative security solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -51,13 +51,13 @@ export const HeroSection = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
-            <a href="mailto:bagtyyaryusupov1997@gmail.com" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="Email">
+            <a href="mailto:bagtyyaryusupov1997@gmail.com" className="text-primary-foreground/60 hover:text-accent transition-colors duration-300" aria-label="Email">
               <Mail className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com/in/bagtyyar" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/bagtyyar" className="text-primary-foreground/60 hover:text-accent transition-colors duration-300" aria-label="LinkedIn">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="https://github.com/byusup03" className="text-primary-foreground/60 hover:text-accent-glow transition-colors duration-300" aria-label="GitHub">
+            <a href="https://github.com/byusup03" className="text-primary-foreground/60 hover:text-accent transition-colors duration-300" aria-label="GitHub">
               <Github className="h-6 w-6" />
             </a>
           </div>
@@ -65,7 +65,7 @@ export const HeroSection = () => {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <Button variant="ghost" size="icon" onClick={() => scrollToSection('about')} className="text-primary-foreground/60 hover:text-accent-glow">
+          <Button variant="ghost" size="icon" onClick={() => scrollToSection('about')} className="text-primary-foreground/60 hover:text-accent">
             <ArrowDown className="h-6 w-6" />
           </Button>
         </div>

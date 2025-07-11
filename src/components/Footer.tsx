@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col items-center text-center space-y-6">
           {/* Logo and Name */}
           <div className="flex items-center space-x-3">
-            <Shield className="h-8 w-8 text-accent-glow" />
+            <Shield className="h-8 w-8 text-accent" />
             <span className="text-2xl font-bold">Bagtyyar Yusubov</span>
           </div>
 
@@ -18,12 +18,6 @@ export const Footer = () => {
             Protecting digital assets and building secure futures through innovative cybersecurity solutions.
           </p>
 
-          {/* Copyright */}
-          <div className="flex items-center space-x-2 text-sm text-primary-foreground/60">
-            <span>© {currentYear} Bagtyyar Yusubov. Made with</span>
-            <Heart className="h-4 w-4 text-accent-glow fill-current" />
-            <span>for cybersecurity.</span>
-          </div>
 
           {/* Security Notice */}
           <div className="text-xs text-primary-foreground/50 max-w-2xl">

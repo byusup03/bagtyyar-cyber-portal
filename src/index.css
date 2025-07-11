@@ -30,10 +30,10 @@ All colors MUST be HSL.
     --muted: 240 5% 15%;
     --muted-foreground: 240 5% 65%;
 
-    /* Vibrant accent colors */
-    --accent: 158 64% 52%;
+    /* Purple accent colors aligned with background */
+    --accent: 280 70% 60%;
     --accent-foreground: 0 0% 98%;
-    --accent-glow: 158 84% 62%;
+    --accent-glow: 280 80% 70%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -43,13 +43,13 @@ All colors MUST be HSL.
     --ring: 263 70% 50%;
 
     /* Beautiful gradient backgrounds */
-    --cyber-gradient: linear-gradient(135deg, hsl(263 70% 50%), hsl(158 64% 52%));
-    --hero-gradient: linear-gradient(135deg, hsl(262 83% 12%) 0%, hsl(263 70% 8%) 50%, hsl(158 64% 8%) 100%);
+    --cyber-gradient: linear-gradient(135deg, hsl(263 70% 50%), hsl(280 70% 60%));
+    --hero-gradient: linear-gradient(135deg, hsl(262 83% 12%) 0%, hsl(263 70% 8%) 50%, hsl(280 70% 8%) 100%);
     --section-gradient: linear-gradient(180deg, hsl(262 80% 15%) 0%, hsl(262 83% 12%) 100%);
     
     /* Enhanced shadows */
     --shadow-cyber: 0 25px 50px -12px hsl(263 70% 50% / 0.25);
-    --shadow-glow: 0 0 40px hsl(158 84% 62% / 0.4);
+    --shadow-glow: 0 0 40px hsl(280 80% 70% / 0.4);
     
     /* Smooth animations */
     --transition-cyber: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
