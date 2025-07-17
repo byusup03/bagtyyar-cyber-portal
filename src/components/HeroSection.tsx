@@ -13,7 +13,7 @@ export const HeroSection = () => {
       {/* Spline Background */}
       <div className="absolute inset-0">
         <iframe 
-          src='https://my.spline.design/particlenebula-m99iFI3Rb7R9TkspyP0yisMQ/' 
+          src='https://my.spline.design/chips-kT25Uo5jYT529znpRqp7AUTs/' 
           frameBorder='0' 
           width='100%' 
           height='100%'
