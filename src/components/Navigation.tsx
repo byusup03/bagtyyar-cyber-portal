@@ -47,12 +47,12 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-accent" />
-            <span className="text-xl font-bold text-primary">BY</span>
+            <span className="text-xl font-bold text-black">BY</span>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-1">
-            {navItems.map(item => <Button key={item.id} variant={activeSection === item.id ? "default" : "ghost"} size="sm" onClick={() => scrollToSection(item.id)} className="text-sm">
+            {navItems.map(item => <Button key={item.id} variant={activeSection === item.id ? "default" : "ghost"} size="sm" onClick={() => scrollToSection(item.id)} className={`text-sm ${activeSection === item.id ? 'text-white' : 'text-black hover:text-gray-700'}`}>
                 {item.label}
               </Button>)}
           </div>
@@ -68,7 +68,7 @@ export const Navigation = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && <div className="md:hidden border-t border-border">
             <div className="py-4 space-y-2">
-              {navItems.map(item => <Button key={item.id} variant={activeSection === item.id ? "default" : "ghost"} className="w-full justify-start" onClick={() => scrollToSection(item.id)}>
+              {navItems.map(item => <Button key={item.id} variant={activeSection === item.id ? "default" : "ghost"} className={`w-full justify-start ${activeSection === item.id ? 'text-white' : 'text-black hover:text-gray-700'}`} onClick={() => scrollToSection(item.id)}>
                   {item.label}
                 </Button>)}
             </div>
