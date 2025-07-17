@@ -12,13 +12,7 @@ export const HeroSection = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Spline Background */}
       <div className="absolute inset-0">
-        <iframe 
-          src='https://my.spline.design/particlenebula-m99iFI3Rb7R9TkspyP0yisMQ/' 
-          frameBorder='0' 
-          width='100%' 
-          height='100%'
-          className="w-full h-full"
-        />
+        <iframe src='https://my.spline.design/particlenebula-m99iFI3Rb7R9TkspyP0yisMQ/' frameBorder='0' width='100%' height='100%' className="w-full h-full" />
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto flex flex-col justify-center items-center min-h-screen py-20">
@@ -35,7 +29,7 @@ export const HeroSection = () => {
             <span className="text-white drop-shadow-lg">Bagtyyar Yusubov</span>
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-white/95 max-w-2xl mx-auto leading-relaxed text-center drop-shadow-md">
+          <p className="text-lg sm:text-xl mb-12 text-white/95 max-w-2xl mx-auto leading-relaxed text-center drop-shadow-md lg:text-2xl font-extrabold">
             Cybersecurity expert protecting digital assets through ethical hacking and innovative security solutions.
           </p>
 
