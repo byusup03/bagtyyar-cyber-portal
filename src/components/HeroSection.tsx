@@ -13,7 +13,7 @@ export const HeroSection = () => {
       {/* Spline Background */}
       <div className="absolute inset-0">
         <iframe 
-          src='https://my.spline.design/chips-kT25Uo5jYT529znpRqp7AUTs/' 
+          src='https://my.spline.design/particlenebula-m99iFI3Rb7R9TkspyP0yisMQ/' 
           frameBorder='0' 
           width='100%' 
           height='100%'
@@ -32,10 +32,10 @@ export const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 text-center">
-            <span className="text-gray-900 drop-shadow-lg">Bagtyyar Yusubov</span>
+            <span className="text-white drop-shadow-lg">Bagtyyar Yusubov</span>
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-gray-800 max-w-2xl mx-auto leading-relaxed text-center drop-shadow-md">
+          <p className="text-lg sm:text-xl lg:text-2xl mb-12 text-white/95 max-w-2xl mx-auto leading-relaxed text-center drop-shadow-md">
             Cybersecurity expert protecting digital assets through ethical hacking and innovative security solutions.
           </p>
 
